@@ -49,10 +49,10 @@ class GroceryInventory
 		void			SetTaxRate(float taxRate);
 		size_t			Size();
 
-	private:
-		//
-		//	TO BE COMPLETED.
-		//
+private:
+        float taxRate_;   //create a taxRate variable
+        map <string, GroceryItem> item_;   //Creates the map
+    
 
 };
 
